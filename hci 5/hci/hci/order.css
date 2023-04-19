@@ -1,0 +1,78 @@
+.order-form .container {
+    color: #4c4c4c;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+  }
+
+  .order-form-label {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .order-form-input {
+    width: 100%;
+    padding: 8px 8px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-radius: 3px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2em;
+    background-color: transparent;
+    border-color: #cccccc;
+  }
+
+  .btn-submit:hover {
+    background-color: #090909 !important;
+  }
+  
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: white;
+  }
+  
+  .carousel-item {
+    height: 30vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+.carousel-caption {
+    font-family: Lobster, serif;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+   background-color:steelblue;
+    color: white;
+  }
+  
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
